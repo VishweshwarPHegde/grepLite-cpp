@@ -2,7 +2,6 @@ grepLite
 grepLite is a lightweight command-line tool for matching regular expressions in text input. It is inspired by the popular grep utility but focuses on basic regex functionality.
 
 Features
-
 Supports basic regular expressions (e.g., ., *, +, ?, [], ()).
 Handles escaped characters (e.g., \d, \w).
 Supports grouping and capturing with parentheses ().
@@ -15,8 +14,7 @@ cd grepLite
 g++ -o grepLite main.cpp
 
 Usage
-
-Run grepLite from the command line with the following syntax:
+Run grepLite from the command line with the following syntax
 
 bash
 Copy
