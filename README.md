@@ -23,32 +23,24 @@ g++ -o grepLite main.cpp
 Usage
 
 Run grepLite from the command line with the following syntax:
+./grepLite -E "<pattern>"
 
-bash
-Copy
-./grepLite -E "<pattern>" 
 Examples
-
 Match a literal string:
-bash
-Copy
 echo "Hello, World!" | ./grepLite -E "Hello"
+
 Match any character (.):
-bash
-Copy
 echo "abc" | ./grepLite -E "a.c"
+
 Match digits (\d):
-bash
-Copy
 echo "123" | ./grepLite -E "\\d+"
+
 Match a group:
-bash
-Copy
 echo "abc" | ./grepLite -E "(a|b)c"
 Match a pattern at the beginning of a line (^):
-bash
-Copy
+
 echo "start" | ./grepLite -E "^start"
+
 Supported Patterns
 
 Pattern	Description
