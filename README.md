@@ -22,7 +22,6 @@ cd grepLite
 g++ -o grepLite main.cpp
 
 Run grepLite from the command line with the following syntax:
-```bash
 ./grepLite -E "<pattern>"
 
 
