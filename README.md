@@ -21,9 +21,8 @@ git clone https://github.com/your-username/grepLite.git
 cd grepLite
 g++ -o grepLite main.cpp
 
-Usage
-
 Run grepLite from the command line with the following syntax:
+```bash
 ./grepLite -E "<pattern>"
 
 
